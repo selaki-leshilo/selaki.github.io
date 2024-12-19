@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    font-family: "Roboto", serif;
+    padding-top: 50px;
+    padding-left: 150px;
+    height: 3000px; 
+    
+}
+
+.navbarlefttop {
+    display: flex;
+    flex-direction: column;
+}
