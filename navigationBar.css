@@ -1,0 +1,90 @@
+body {
+    font-family: "Roboto", serif;
+}
+
+
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color:   rgb(49, 49, 80);
+    justify-content: space-between;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 12px;
+    padding-bottom: 14px;
+    color: white;
+    z-index: 3;
+
+    box-shadow: 2px 2px 5px gray;
+}
+
+
+/* left-navBar */
+
+.left-navBar {
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+}
+
+.left-navBar .fa {
+    margin-right: 8px;
+}
+
+/* middle-navBar */
+
+/* right-navBar */
+
+.right-navBar {
+    display: flex;
+    align-items: center;
+    margin-right: 60px;
+}
+
+.right-navBar button {
+    height: 34px;
+    width: 80px;
+    border: 1px solid white;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 20px;
+    color: rgb(49, 49, 80);
+    cursor: pointer;
+}
+
+.right-navBar button:hover {
+    background-color: rgb(49, 49, 80);
+    color: white;
+    box-shadow: none;
+    border: 1px solid white;
+}
+
+.right-navBar a {
+    margin-right: 6px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    padding: 10px;
+    color: white;
+
+}
+
+.home,
+.right-navBar a:hover {
+    background-color: grey;
+    border-radius: 4px;
+}
+
+
+
+.navBar .fa {
+    margin-right: 6px;
+}
+
+

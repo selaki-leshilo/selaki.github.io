@@ -1,0 +1,184 @@
+.SignUp-tab {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    color: black;
+    box-shadow: 2px 2px 5px rgb(49, 49, 80);
+    padding: 20px 10px;
+    padding-bottom: 60px;
+    border-radius: 20px;
+    border: 1px solid rgb(49, 49, 80);
+    z-index: 2;
+    position: relative;
+    
+}
+
+@media screen and (width: 720px) {
+    .SignUp-tab {
+        transform: scale(1.5);
+        margin-top: 130px;
+    }
+}
+
+.heading {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.email-input,
+.password-input {
+    width: 210px;
+    padding: 4px 10px;
+    margin-top: 8px;
+    border-radius: 10px;
+    border: 1px solid rgb(49, 49, 80);
+    outline: none;
+}
+
+.signup-method {
+    font-size: 18px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-method ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin-top: 15px;
+}
+
+li {
+    font-size: 11px;
+}
+
+.fa {
+    margin-right: 10px;
+}
+
+.message {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    width: 210px;
+    margin-bottom: 10px;
+}
+
+.message input {
+    margin: 0;
+    margin-right: 4px;
+}
+
+.text {
+    margin: 0;
+    font-size: 11px;
+}
+
+.Register-btn {
+    width: 210px;
+    height: 28px;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 8px;
+    background-color: rgb(49, 49, 80);
+    color: white;
+
+}
+
+.notice {
+    font-size: 11px;
+}
+
+.text button,
+.notice button {
+    border: none;
+    background-color: transparent;
+    color: red;
+}
+
+.deco1 {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+    border-radius: 50%;  
+    position: absolute;
+    z-index: 1;
+}
+
+.deco2 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(1, 185, 32);
+    border-radius: 50%;  
+    position: absolute;
+
+    left: 60px;
+    top: 0px;
+    z-index: 1;
+}
+
+.deco3 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(88, 126, 250);
+    border-radius: 50%;  
+    position: absolute;
+
+    right: 90px;
+    top: 0px;
+    z-index: 1;
+}
+
+.deco4 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(26, 30, 41);
+    border-radius: 50%;  
+    position: absolute;
+
+    right: 180px;
+    top: 240px;
+    z-index: 1;
+}
+
+.deco5 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(185, 1, 1);
+    border-radius: 50%;  
+    position: absolute;
+
+    left: 60px;
+    bottom: 500px;
+    z-index: 1;
+}
+
+.deco6 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(91, 0, 133);
+    border-radius: 50%;  
+    position: absolute;
+
+    right: 180px;
+    bottom: 200px;
+    z-index: 1;
+}
+
+.deco7 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(180, 0, 90);
+    border-radius: 50%;  
+    position: absolute;
+
+    left: 10px;
+    bottom: 1090px;
+    z-index: 1;
+}
