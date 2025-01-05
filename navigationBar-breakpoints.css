@@ -1,6 +1,6 @@
 @media screen and (max-width: 720px) {
     .navBar {
-        transform: scale(1.5);
+        transform: scale(1.8);
         padding-left: 70px;
         padding-right: 50px;
     }
